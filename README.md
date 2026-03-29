@@ -15,4 +15,4 @@ https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvVhxyDe5qdiBbbd6x9vj_tp1S
 https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png
 https://sm.ign.com/t/ign_nordic/cover/t/tekken-3/tekken-3_bz7d.600.jpg
 
-// Note: The wireframes for this assignment were made by ChatGPT
+// Note: The wireframes for the index and products page were made by ChatGPT
