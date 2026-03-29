@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Products | Unnamed Game Store</title>
+        <link rel="icon" type="image/png" href="images/favicon.png">
+
+        <script>
+            function showCategory(category) {
+                alert("Showing products for: " + category);
+            }
+        </script>
+
+        <script>
+            function notReal() {
+                alert("Not a real website srry :P");
+            }
+        </script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    </head>
+<body class="products-page">
+    <header>
+        <h1>
+            Products
+        </h1>
+    </header>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+<main>
+
+<div class="products-content" aria-label="Products">
+    
+    <aside class="sidebar" aria-label="Products Categories">
+        <h2>
+            Categories
+        </h2>
+        <ul>
+            <li>
+                <a href="#" onclick="showCategory('Nintendo')">
+                    Nintendo
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="showCategory('Playstation')">
+                    Playstation
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="showCategory('Retro Games')">
+                    Retro Games
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+    <section>
+        <h2>All Products</h2>
+
+        <div class="product-card" aria-label="Legend of Zelda(Loose Cartridge)">
+            <a href="#" onclick="notReal(); return false;">
+            <h3>
+                The Legend of Zelda(Loose Cartridge)
+            </h3>
+
+            <img src="images/zelda.png" alt="The Legend of Zelda" class="banner">
+            </a>
+
+            <h3 class="normalprice">
+                Price:
+                <span>
+                    $35.99
+                </span>
+            </h3>
+        </div>
+
+        <div class="product-card" aria-label="Crash Bandicoot">
+            <a href="#" onclick="notReal(); return false;">
+            <h3>
+                Crash Bandicoot
+            </h3>
+
+            <img src="images/crash.png" alt="The Legend of Zelda" class="banner">
+            </a>
+
+            <h3 class="normalprice">
+                Price:
+                <span>
+                    $45.99
+                </span>
+            </h3>
+        </div>
+
+        <div class="product-card" aria-label="Tekken 3">
+            <a href="#" onclick="notReal(); return false;">
+            <h3>
+                Tekken 3
+            </h3>
+
+            <img src="images/tek3.webp" alt="Tekken 3" class="banner">
+            </a>
+
+            <h3 class="normalprice">
+                Price:
+                <span>
+                    $89.99
+                </span>
+            </h3>
+        </div>
+    </section>
+</div>
+<footer class="footer" aria-label="copyright-info" role="contentinfo">
+    <p>
+        © Copyright 2026 MyCompanyName
+    </p>
+    <p>
+        Contact: thewarframe45@hotmail.com
+    </p>
+</footer>
+</main>
+</body>
