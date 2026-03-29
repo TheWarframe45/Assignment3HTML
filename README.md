@@ -5,7 +5,8 @@ School Email: ly379923@dal.ca
 # Unnamed Game Store
 
 ## Description
-Sample website for a video game store. Does not actually work in the sense of a store but is just designed as a placeholder.
+Sample website for a video game store. Does not actually work in the sense of a store but is just designed as a placeholder. This website
+is designed for the visually impaired with aria labels and descriptive tags.
 
 ## Image Citations
 https://glitchwave.com/game/super-mario-64/release/super-mario-64-players-choice-nintendo-64-na/
