@@ -52,6 +52,7 @@ nav a {
 .banner {
     width: 100%;
     max-width: 250px;
+    text-color: black;
 }
 
 .products {
